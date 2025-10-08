@@ -10,7 +10,7 @@ genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 # Function to call Gemini API
 def get_gemini_response(input_prompt, images, user_prompt):
-    model = genai.GenerativeModel('gemini-1.5-flash')
+    model = genai.GenerativeModel('gemini-2.0-flash-001')
 
     # Build input parts: [prompt, image1, image2, ..., user_prompt]
     inputs = [input_prompt]
