@@ -1,0 +1,351 @@
+dish_name,food_type,accessed_get_ingredients,accessed_nutrition,accessed_how_to_cook,accessed_alternates
+Microwave Popcorn,Packet Food,no,yes,yes,no
+Fries,Junk Food,no,no,yes,no
+Soup Can Label,Label Scan,no,yes,no,no
+Soup Can Label,Label Scan,no,yes,no,no
+Cereal Box Label,Label Scan,no,yes,no,no
+Yogurt Cup Details,Label Scan,no,yes,no,no
+Fried Chicken,Junk Food,yes,no,yes,no
+Snack Bar Wrapper,Label Scan,no,yes,no,no
+Cereal Box Label,Label Scan,no,yes,no,no
+Soup Can Label,Label Scan,no,yes,no,no
+Caesar Salad,Salad,yes,no,no,no
+Brownie,Dessert,yes,no,yes,yes
+Spaghetti Bolognese,Traditional Meal,yes,yes,yes,no
+Hot Dog,Junk Food,no,no,yes,no
+Spaghetti Bolognese,Traditional Meal,yes,yes,yes,no
+Shepherd's Pie,Traditional Meal,yes,no,yes,yes
+Roast Chicken,Traditional Meal,yes,yes,yes,yes
+Brownie,Dessert,yes,no,yes,yes
+Pizza,Junk Food,no,no,yes,no
+Hot Dog,Junk Food,no,no,no,no
+Brownie,Dessert,yes,no,yes,yes
+Hot Dog,Junk Food,yes,no,yes,no
+Shepherd's Pie,Traditional Meal,yes,no,no,yes
+Roast Chicken,Traditional Meal,yes,yes,no,yes
+Cereal Box Label,Label Scan,no,yes,no,no
+Microwave Popcorn,Packet Food,no,yes,yes,no
+Roast Chicken,Traditional Meal,yes,yes,yes,yes
+Hot Dog,Junk Food,yes,no,yes,yes
+Frozen Dinner,Packet Food,yes,yes,yes,no
+Microwave Popcorn,Packet Food,no,no,yes,no
+Cereal Box Label,Label Scan,no,yes,no,no
+Snack Bar Wrapper,Label Scan,no,yes,no,no
+Soup Can Label,Label Scan,no,yes,no,no
+Soda Can Info,Label Scan,yes,yes,no,no
+Quinoa Salad,Salad,yes,yes,no,yes
+Roast Chicken,Traditional Meal,yes,no,yes,no
+Yogurt Cup Details,Label Scan,no,yes,no,no
+Canned Soup,Packet Food,yes,yes,no,no
+Canned Soup,Packet Food,no,yes,yes,no
+Soup Can Label,Label Scan,no,yes,no,no
+Chicken Curry,Traditional Meal,yes,no,yes,yes
+Soup Can Label,Label Scan,no,yes,no,no
+Spaghetti Bolognese,Traditional Meal,yes,no,yes,yes
+Shepherd's Pie,Traditional Meal,yes,no,yes,yes
+Fries,Junk Food,yes,no,yes,no
+Oatmeal Pouch,Packet Food,no,yes,yes,yes
+Roast Chicken,Traditional Meal,yes,yes,yes,yes
+Roast Chicken,Traditional Meal,yes,no,yes,yes
+Chicken Curry,Traditional Meal,yes,yes,yes,yes
+Oatmeal Pouch,Packet Food,yes,yes,yes,no
+Soda Can Info,Label Scan,no,yes,no,no
+Instant Noodles,Packet Food,no,yes,yes,no
+Fries,Junk Food,no,no,yes,yes
+Oatmeal Pouch,Packet Food,no,no,yes,no
+Cereal Box Label,Label Scan,no,yes,no,no
+Spaghetti Bolognese,Traditional Meal,yes,yes,yes,yes
+Spaghetti Bolognese,Traditional Meal,yes,no,yes,yes
+Chicken Curry,Traditional Meal,yes,no,yes,yes
+Soda Can Info,Label Scan,no,yes,no,no
+Frozen Dinner,Packet Food,yes,yes,yes,no
+Oatmeal Pouch,Packet Food,no,yes,yes,no
+Quinoa Salad,Salad,yes,yes,no,yes
+Roast Chicken,Traditional Meal,yes,no,yes,yes
+Chocolate Cake,Dessert,yes,no,yes,yes
+Chocolate Cake,Dessert,yes,no,yes,no
+Cobb Salad,Salad,yes,yes,yes,yes
+Chocolate Cake,Dessert,yes,yes,yes,no
+Spaghetti Bolognese,Traditional Meal,yes,yes,yes,yes
+Fried Chicken,Junk Food,yes,yes,yes,yes
+Burger,Junk Food,no,no,yes,yes
+Apple Pie,Dessert,yes,no,yes,no
+Spaghetti Bolognese,Traditional Meal,yes,yes,yes,no
+Instant Noodles,Packet Food,no,yes,yes,no
+Microwave Popcorn,Packet Food,no,yes,no,no
+Pizza,Junk Food,no,no,yes,no
+Fried Chicken,Junk Food,no,no,yes,no
+Cereal Box Label,Label Scan,no,yes,no,no
+Soda Can Info,Label Scan,no,yes,no,no
+Instant Noodles,Packet Food,no,yes,yes,no
+Greek Salad,Salad,yes,yes,yes,yes
+Pizza,Junk Food,yes,no,yes,no
+Canned Soup,Packet Food,no,no,yes,no
+Fried Chicken,Junk Food,yes,no,yes,yes
+Frozen Dinner,Packet Food,no,yes,yes,yes
+Soda Can Info,Label Scan,no,yes,no,no
+Soup Can Label,Label Scan,no,yes,no,no
+Instant Noodles,Packet Food,no,yes,yes,no
+Instant Noodles,Packet Food,no,yes,yes,no
+Chocolate Cake,Dessert,yes,no,yes,yes
+Pizza,Junk Food,yes,no,yes,no
+Roast Chicken,Traditional Meal,yes,no,yes,yes
+Caesar Salad,Salad,yes,yes,no,yes
+Microwave Popcorn,Packet Food,no,yes,yes,no
+Caesar Salad,Salad,yes,yes,no,yes
+Oatmeal Pouch,Packet Food,no,yes,yes,yes
+Cheesecake,Dessert,yes,no,yes,yes
+Fries,Junk Food,yes,no,yes,no
+Cobb Salad,Salad,no,yes,yes,no
+Brownie,Dessert,yes,yes,yes,yes
+Cereal Box Label,Label Scan,no,yes,no,no
+Spaghetti Bolognese,Traditional Meal,yes,no,yes,yes
+Pizza,Junk Food,yes,no,yes,yes
+Ice Cream,Dessert,yes,no,yes,no
+Hot Dog,Junk Food,no,no,yes,no
+Fruit Salad,Salad,yes,no,no,yes
+Chicken Curry,Traditional Meal,yes,no,yes,yes
+Cereal Box Label,Label Scan,no,yes,yes,no
+Shepherd's Pie,Traditional Meal,yes,no,yes,yes
+Snack Bar Wrapper,Label Scan,no,yes,no,no
+Microwave Popcorn,Packet Food,yes,yes,yes,no
+Canned Soup,Packet Food,no,no,yes,no
+Quinoa Salad,Salad,yes,yes,no,yes
+Yogurt Cup Details,Label Scan,no,yes,no,no
+Snack Bar Wrapper,Label Scan,no,yes,no,no
+Burger,Junk Food,no,no,yes,no
+Apple Pie,Dessert,no,no,yes,no
+Frozen Dinner,Packet Food,no,yes,yes,no
+Quinoa Salad,Salad,yes,yes,no,no
+Apple Pie,Dessert,yes,no,yes,yes
+Fries,Junk Food,yes,no,yes,no
+Greek Salad,Salad,yes,yes,no,yes
+Snack Bar Wrapper,Label Scan,no,yes,no,no
+Canned Soup,Packet Food,no,yes,yes,no
+Apple Pie,Dessert,yes,no,no,yes
+Hot Dog,Junk Food,yes,no,yes,yes
+Microwave Popcorn,Packet Food,no,yes,yes,no
+Burger,Junk Food,no,no,yes,no
+Dal Tadka,Traditional Meal,yes,no,yes,yes
+Shepherd's Pie,Traditional Meal,yes,no,yes,yes
+Burger,Junk Food,no,no,yes,no
+Microwave Popcorn,Packet Food,no,yes,yes,no
+Cobb Salad,Salad,yes,yes,yes,yes
+Canned Soup,Packet Food,no,yes,yes,no
+Soup Can Label,Label Scan,no,yes,no,no
+Pizza,Junk Food,no,no,yes,no
+Frozen Dinner,Packet Food,no,yes,yes,no
+Dal Tadka,Traditional Meal,yes,yes,yes,yes
+Instant Noodles,Packet Food,no,no,yes,no
+Soup Can Label,Label Scan,no,yes,no,no
+Microwave Popcorn,Packet Food,no,no,yes,no
+Canned Soup,Packet Food,no,yes,yes,no
+Greek Salad,Salad,yes,yes,yes,yes
+Shepherd's Pie,Traditional Meal,yes,no,yes,yes
+Caesar Salad,Salad,yes,yes,no,yes
+Cheesecake,Dessert,yes,no,yes,yes
+Cereal Box Label,Label Scan,no,yes,no,yes
+Chicken Curry,Traditional Meal,yes,no,yes,yes
+Burger,Junk Food,no,no,yes,yes
+Burger,Junk Food,no,yes,yes,no
+Hot Dog,Junk Food,no,no,yes,yes
+Apple Pie,Dessert,yes,no,yes,yes
+Hot Dog,Junk Food,no,no,yes,no
+Pizza,Junk Food,no,no,no,no
+Pizza,Junk Food,yes,no,yes,yes
+Snack Bar Wrapper,Label Scan,no,yes,no,no
+Fries,Junk Food,yes,no,yes,no
+Microwave Popcorn,Packet Food,no,yes,yes,no
+Shepherd's Pie,Traditional Meal,no,no,yes,yes
+Soda Can Info,Label Scan,no,yes,no,no
+Yogurt Cup Details,Label Scan,no,yes,no,no
+Instant Noodles,Packet Food,yes,yes,yes,yes
+Chocolate Cake,Dessert,yes,no,yes,yes
+Cereal Box Label,Label Scan,no,yes,no,no
+Microwave Popcorn,Packet Food,yes,yes,yes,no
+Cereal Box Label,Label Scan,no,yes,no,no
+Pizza,Junk Food,yes,no,yes,no
+Dal Tadka,Traditional Meal,yes,no,yes,yes
+Frozen Dinner,Packet Food,no,yes,no,yes
+Greek Salad,Salad,yes,yes,no,yes
+Soda Can Info,Label Scan,no,yes,no,no
+Chicken Curry,Traditional Meal,yes,yes,yes,yes
+Cheesecake,Dessert,yes,no,yes,no
+Microwave Popcorn,Packet Food,no,yes,yes,no
+Chicken Curry,Traditional Meal,yes,no,yes,yes
+Oatmeal Pouch,Packet Food,no,yes,yes,no
+Caesar Salad,Salad,yes,yes,yes,no
+Yogurt Cup Details,Label Scan,no,yes,no,no
+Fruit Salad,Salad,no,yes,no,yes
+Hot Dog,Junk Food,no,no,yes,no
+Dal Tadka,Traditional Meal,yes,no,yes,yes
+Instant Noodles,Packet Food,no,yes,yes,no
+Chocolate Cake,Dessert,yes,no,yes,yes
+Burger,Junk Food,yes,yes,yes,no
+Fried Chicken,Junk Food,no,no,yes,yes
+Instant Noodles,Packet Food,no,yes,yes,no
+Burger,Junk Food,yes,no,no,no
+Fruit Salad,Salad,no,yes,no,no
+Burger,Junk Food,no,no,yes,no
+Pizza,Junk Food,yes,no,yes,yes
+Apple Pie,Dessert,yes,no,yes,yes
+Frozen Dinner,Packet Food,no,yes,yes,yes
+Pizza,Junk Food,no,no,yes,no
+Ice Cream,Dessert,yes,yes,yes,yes
+Oatmeal Pouch,Packet Food,no,no,yes,no
+Hot Dog,Junk Food,yes,yes,yes,no
+Microwave Popcorn,Packet Food,no,no,yes,no
+Shepherd's Pie,Traditional Meal,yes,yes,yes,yes
+Roast Chicken,Traditional Meal,yes,no,yes,yes
+Soup Can Label,Label Scan,no,yes,no,no
+Cobb Salad,Salad,no,yes,no,yes
+Soup Can Label,Label Scan,no,yes,no,yes
+Burger,Junk Food,no,no,yes,yes
+Canned Soup,Packet Food,no,yes,yes,no
+Spaghetti Bolognese,Traditional Meal,yes,no,yes,yes
+Chicken Curry,Traditional Meal,yes,yes,no,yes
+Caesar Salad,Salad,yes,no,no,yes
+Soda Can Info,Label Scan,no,yes,no,no
+Chocolate Cake,Dessert,yes,no,no,yes
+Instant Noodles,Packet Food,no,yes,yes,no
+Oatmeal Pouch,Packet Food,no,yes,yes,no
+Cereal Box Label,Label Scan,no,yes,no,no
+Dal Tadka,Traditional Meal,yes,yes,yes,no
+Burger,Junk Food,no,yes,yes,yes
+Instant Noodles,Packet Food,no,yes,yes,yes
+Oatmeal Pouch,Packet Food,no,yes,no,no
+Oatmeal Pouch,Packet Food,no,yes,yes,no
+Burger,Junk Food,yes,yes,yes,no
+Frozen Dinner,Packet Food,no,yes,yes,yes
+Roast Chicken,Traditional Meal,yes,no,yes,yes
+Roast Chicken,Traditional Meal,yes,no,yes,yes
+Burger,Junk Food,yes,no,yes,no
+Hot Dog,Junk Food,no,no,yes,yes
+Quinoa Salad,Salad,yes,yes,no,yes
+Shepherd's Pie,Traditional Meal,yes,no,yes,yes
+Hot Dog,Junk Food,yes,no,yes,no
+Snack Bar Wrapper,Label Scan,no,yes,yes,no
+Frozen Dinner,Packet Food,no,yes,yes,no
+Cereal Box Label,Label Scan,no,yes,no,no
+Burger,Junk Food,yes,no,yes,no
+Burger,Junk Food,yes,no,yes,no
+Dal Tadka,Traditional Meal,yes,no,yes,yes
+Cheesecake,Dessert,yes,no,yes,no
+Canned Soup,Packet Food,no,yes,no,no
+Apple Pie,Dessert,yes,no,yes,yes
+Fried Chicken,Junk Food,yes,no,yes,no
+Spaghetti Bolognese,Traditional Meal,yes,yes,yes,yes
+Cobb Salad,Salad,yes,yes,yes,yes
+Hot Dog,Junk Food,no,no,yes,yes
+Microwave Popcorn,Packet Food,yes,yes,yes,no
+Frozen Dinner,Packet Food,no,yes,yes,no
+Cheesecake,Dessert,yes,no,yes,yes
+Canned Soup,Packet Food,no,yes,yes,no
+Cereal Box Label,Label Scan,no,yes,no,no
+Shepherd's Pie,Traditional Meal,yes,no,yes,yes
+Frozen Dinner,Packet Food,no,yes,yes,yes
+Cheesecake,Dessert,yes,no,no,yes
+Greek Salad,Salad,yes,no,no,yes
+Cereal Box Label,Label Scan,no,yes,no,no
+Fruit Salad,Salad,yes,yes,no,yes
+Instant Noodles,Packet Food,no,yes,yes,no
+Frozen Dinner,Packet Food,no,yes,yes,no
+Microwave Popcorn,Packet Food,no,yes,yes,no
+Apple Pie,Dessert,yes,no,yes,yes
+Chocolate Cake,Dessert,yes,no,yes,yes
+Roast Chicken,Traditional Meal,yes,yes,yes,yes
+Brownie,Dessert,yes,yes,yes,no
+Snack Bar Wrapper,Label Scan,no,yes,no,no
+Roast Chicken,Traditional Meal,yes,no,yes,yes
+Hot Dog,Junk Food,no,no,yes,no
+Fruit Salad,Salad,yes,no,no,yes
+Shepherd's Pie,Traditional Meal,yes,yes,yes,no
+Chicken Curry,Traditional Meal,yes,no,yes,yes
+Chocolate Cake,Dessert,yes,yes,yes,yes
+Caesar Salad,Salad,yes,yes,no,no
+Fried Chicken,Junk Food,no,no,yes,yes
+Hot Dog,Junk Food,yes,no,yes,yes
+Fruit Salad,Salad,yes,yes,no,yes
+Soup Can Label,Label Scan,no,yes,no,no
+Shepherd's Pie,Traditional Meal,yes,yes,yes,yes
+Apple Pie,Dessert,yes,no,yes,yes
+Soda Can Info,Label Scan,no,yes,no,no
+Apple Pie,Dessert,yes,no,yes,yes
+Greek Salad,Salad,yes,yes,no,yes
+Dal Tadka,Traditional Meal,yes,no,yes,yes
+Snack Bar Wrapper,Label Scan,no,yes,no,no
+Spaghetti Bolognese,Traditional Meal,yes,yes,yes,yes
+Snack Bar Wrapper,Label Scan,no,yes,no,no
+Instant Noodles,Packet Food,no,yes,yes,no
+Spaghetti Bolognese,Traditional Meal,yes,no,yes,yes
+Ice Cream,Dessert,yes,no,yes,yes
+Hot Dog,Junk Food,yes,yes,yes,no
+Cheesecake,Dessert,yes,no,yes,yes
+Cobb Salad,Salad,yes,yes,yes,no
+Spaghetti Bolognese,Traditional Meal,yes,yes,no,yes
+Snack Bar Wrapper,Label Scan,no,yes,no,no
+Cheesecake,Dessert,yes,no,yes,no
+Pizza,Junk Food,yes,no,yes,yes
+Microwave Popcorn,Packet Food,no,yes,yes,yes
+Greek Salad,Salad,yes,yes,no,yes
+Snack Bar Wrapper,Label Scan,no,yes,no,no
+Apple Pie,Dessert,yes,no,yes,no
+Fried Chicken,Junk Food,no,no,yes,no
+Roast Chicken,Traditional Meal,yes,no,yes,yes
+Fruit Salad,Salad,no,yes,no,yes
+Oatmeal Pouch,Packet Food,no,yes,no,no
+Hot Dog,Junk Food,yes,no,yes,no
+Microwave Popcorn,Packet Food,no,yes,yes,yes
+Roast Chicken,Traditional Meal,yes,yes,yes,yes
+Caesar Salad,Salad,yes,yes,yes,yes
+Chocolate Cake,Dessert,yes,no,yes,yes
+Soda Can Info,Label Scan,no,yes,no,no
+Instant Noodles,Packet Food,no,no,yes,no
+Quinoa Salad,Salad,yes,yes,no,yes
+Snack Bar Wrapper,Label Scan,no,yes,no,no
+Soda Can Info,Label Scan,no,yes,no,no
+Shepherd's Pie,Traditional Meal,yes,yes,yes,yes
+Dal Tadka,Traditional Meal,yes,no,yes,yes
+Soup Can Label,Label Scan,no,yes,no,no
+Instant Noodles,Packet Food,yes,yes,yes,no
+Soda Can Info,Label Scan,yes,yes,no,no
+Fruit Salad,Salad,yes,yes,no,no
+Pizza,Junk Food,yes,no,yes,no
+Hot Dog,Junk Food,no,no,yes,no
+Fruit Salad,Salad,yes,yes,no,yes
+Soup Can Label,Label Scan,no,yes,no,no
+Chocolate Cake,Dessert,yes,no,no,no
+Snack Bar Wrapper,Label Scan,no,yes,no,no
+Yogurt Cup Details,Label Scan,no,yes,no,no
+Caesar Salad,Salad,yes,yes,no,yes
+Spaghetti Bolognese,Traditional Meal,yes,no,yes,yes
+Roast Chicken,Traditional Meal,yes,no,yes,yes
+Dal Tadka,Traditional Meal,yes,no,yes,yes
+Brownie,Dessert,yes,no,yes,yes
+Fried Chicken,Junk Food,no,no,no,no
+Fruit Salad,Salad,yes,no,no,yes
+Greek Salad,Salad,yes,yes,no,yes
+Shepherd's Pie,Traditional Meal,yes,no,no,yes
+Chocolate Cake,Dessert,yes,no,yes,yes
+Fried Chicken,Junk Food,yes,no,yes,yes
+Soup Can Label,Label Scan,no,yes,no,no
+Fried Chicken,Junk Food,yes,no,yes,yes
+Soda Can Info,Label Scan,yes,yes,no,no
+Ice Cream,Dessert,yes,no,yes,yes
+Fried Chicken,Junk Food,no,no,yes,yes
+Canned Soup,Packet Food,no,yes,yes,no
+Spaghetti Bolognese,Traditional Meal,yes,yes,yes,yes
+Apple Pie,Dessert,yes,no,yes,no
+Oatmeal Pouch,Packet Food,no,no,yes,no
+Canned Soup,Packet Food,no,no,no,no
+Hot Dog,Junk Food,yes,no,yes,yes
+Caesar Salad,Salad,no,yes,yes,yes
+Caesar Salad,Salad,yes,yes,yes,yes
+Shepherd's Pie,Traditional Meal,yes,no,yes,yes
+Burger,Junk Food,no,no,yes,no
+Fruit Salad,Salad,yes,yes,no,yes
+Hot Dog,Junk Food,yes,no,yes,yes
+Instant Noodles,Packet Food,yes,no,yes,no
+Microwave Popcorn,Packet Food,no,yes,yes,no
+Brownie,Dessert,yes,no,yes,no
+Brownie,Dessert,yes,no,no,yes
