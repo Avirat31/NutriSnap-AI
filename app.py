@@ -1,42 +1,36 @@
 from dotenv import load_dotenv
-load_dotenv()
+load_dotenv()  
 import streamlit as st
 import os
 from PIL import Image
-from google import genai
-from google.genai import types
+import google.generativeai as genai
 
-# Configure Gemini client 
-api_key = os.getenv("GOOGLE_API_KEY") or st.secrets.get("GOOGLE_API_KEY")
-client = genai.Client(api_key=api_key)
-
-MODEL_NAME = "gemini-3.5-flash"
+# Configure Gemini API
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 # Function to call Gemini API
-def get_gemini_response(input_prompt, image_parts, user_prompt):
-    contents = [input_prompt]
-    contents.extend(image_parts)
-    if user_prompt.strip():
-        contents.append(user_prompt)
+def get_gemini_response(input_prompt, images, user_prompt):
+    model = genai.GenerativeModel('gemini-3.5-flash')
 
-    response = client.models.generate_content(
-        model=MODEL_NAME,
-        contents=contents,
-    )
+    # Build input parts: [prompt, image1, image2, ..., user_prompt]
+    inputs = [input_prompt]
+    inputs.extend(images)
+    if user_prompt.strip():
+        inputs.append(user_prompt)
+
+    response = model.generate_content(inputs)
     return response.text
 
-# Function to prepare uploaded images as Part objects
+# Function to prepare uploaded images
 def input_image_setup(uploaded_files):
     image_parts = []
     for uploaded_file in uploaded_files:
         if uploaded_file is not None:
             bytes_data = uploaded_file.getvalue()
-            image_parts.append(
-                types.Part.from_bytes(
-                    data=bytes_data,
-                    mime_type=uploaded_file.type,
-                )
-            )
+            image_parts.append({
+                "mime_type": uploaded_file.type,
+                "data": bytes_data
+            })
     return image_parts
 
 # Streamlit app
@@ -57,13 +51,13 @@ def main():
         1. Discover key details about the dish, including its name and culinary essence.
         2. Explore the fascinating origins of the dish, unraveling its cultural and historical significance.
         3. Dive into the rich tapestry of ingredients, presented pointwise, that contribute to the dish's exquisite flavor profile.""",
-
+            
             "How to Cook": """As the culinary maestro guiding eager chefs, lay out the meticulous steps for crafting the featured dish:
         1. Start with selecting the finest ingredients, emphasizing quality and freshness.
         2. Detail the process of washing, peeling, and chopping each ingredient with precision.
         3. Unveil the culinary artistry behind the cooking process, step by step.
         4. Share expert tips and techniques to elevate the dish from ordinary to extraordinary.""",
-
+            
             "Nutritional Value": """In your role as a nutritional advisor, present a comprehensive overview of the dish's nutritional value:
         1. Display a table showcasing nutritional values in descending order, covering calories, protein, fat, and carbohydrates.
         2. Create a second table illustrating the nutritional contribution of each ingredient, unraveling the dietary secrets within.
@@ -71,7 +65,7 @@ def main():
             - Give a clear score like ⭐⭐⭐⭐☆ (4/5 Healthy).
         4. **Suitability**:
             - Whether it’s good for weight loss, diabetes, bodybuilding, general wellness, etc.""",
-
+            
             "Alternative Dishes with Similar Nutritional Values": """Act as a dietitian and nutritionist:
         1. Your task is to provide 2 vegeterian dish alternative to the dish uploaded in the image which have the same nutritional value.
         2. Your task is to provide 2 Non-vegeterian dish alternative to the dish uploaded in the image which have the same nutritional value."""
@@ -127,14 +121,11 @@ def main():
         if clicked:
             if uploaded_files:
                 with st.spinner("🔍 Analyzing the dish..."):
-                    try:
-                        img_parts = input_image_setup(uploaded_files)
-                        response = get_gemini_response(input_prompts[label], img_parts, user_prompt)
-                        st.success("✅ Output:")
-                        st.markdown(f"### {label}")
-                        st.write(response)
-                    except Exception as e:
-                        st.error(f"⚠️ Something went wrong calling the Gemini API: {e}")
+                    img_parts = input_image_setup(uploaded_files)
+                    response = get_gemini_response(input_prompts[label], img_parts, user_prompt)
+                    st.success("✅ Output:")
+                    st.markdown(f"### {label}")
+                    st.write(response)
             else:
                 st.error("⚠️ Please upload at least one image.")
 
