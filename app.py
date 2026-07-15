@@ -7,7 +7,8 @@ from google import genai
 from google.genai import types
 
 # Configure Gemini client 
-client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
+api_key = os.getenv("GOOGLE_API_KEY") or st.secrets.get("GOOGLE_API_KEY")
+client = genai.Client(api_key=api_key)
 
 MODEL_NAME = "gemini-2.5-flash"
 
