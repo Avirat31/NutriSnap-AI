@@ -10,7 +10,7 @@ from google.genai import types
 api_key = os.getenv("GOOGLE_API_KEY") or st.secrets.get("GOOGLE_API_KEY")
 client = genai.Client(api_key=api_key)
 
-MODEL_NAME = "gemini-2.5-flash"
+MODEL_NAME = "gemini-3.5-flash"
 
 # Function to call Gemini API
 def get_gemini_response(input_prompt, image_parts, user_prompt):
